@@ -5,7 +5,7 @@ import logo from '../assets/images/logo.png'
 function Navbar() {
     return (
         <Fragment>
-            <div className="bg-gradient-to-r from-[#CDC07F] via-[#EAE6BC] to-[#B7C7C5] py-5 mx-auto h-16 flex justify-around items-center overflow-x-auto shadow-lg">
+            <div className="bg-gradient-to-r from-[#CDC07F] via-[#EAE6BC] to-[#B7C7C5] py-5 mx-auto h-16 flex justify-around items-center shadow-lg">
                 <div className="mx-5 flex items-center">
                     <img src={logo} alt="Logo" className="h-10" />
                     <h1 className="mx-2 font-bold">CODE LEVELING</h1>
