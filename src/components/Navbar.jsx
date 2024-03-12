@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import { Outlet, Link } from 'react-router-dom'
 import logo from '../assets/images/logo.png'
+import Profile from './Profile'
 
 function Navbar() {
     return (
@@ -19,7 +20,7 @@ function Navbar() {
                         <li><Link to="/rankings" className="hover:text-gray-300">Rankings</Link></li>
                     </ul> 
                     <div className="mx-10 flex">
-                        <img src="https://xsgames.co/randomusers/avatar.php?g=female" alt="Profile" className="h-10 rounded-full" />
+                        <Profile avatar={"https://xsgames.co/randomusers/avatar.php?g=female"}/>
                 </div>
                 </div>
             </div>
