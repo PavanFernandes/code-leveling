@@ -7,7 +7,7 @@ function Navbar() {
 
     const elements = [
         {title : "Home", path : "/"},
-        {title : "Projects", path : "/projects"},
+        {title : "Projects", path : "/"},
         {title : "Learn", path : "/learn"},
         {title : "Problems", path : "/problems"},
         {title : "Compete", path : "/compete"},
