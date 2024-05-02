@@ -16,7 +16,7 @@ const Profile = ({avatar}) => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative z-10">
       <button
         onClick={toggleDropdown}
         className="inline-flex items-center px-4 py-2 text-sm font-medium rounded-md text-gray-700 focus:outline-none"

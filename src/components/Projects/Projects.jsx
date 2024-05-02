@@ -28,7 +28,7 @@ function Projects() {
 
 
   return (
-    <div className= 'grid justify-center mb-24'>
+    <div className= 'grid justify-center mb-20 my-7'>
         <div className='border'>
             <div className='mx-5 mt-3 mb-2'>
             <h1>Discover the projects taking place within our university</h1>
